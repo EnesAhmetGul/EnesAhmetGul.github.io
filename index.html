@@ -1,11 +1,91 @@
-<html>
+<html style="background-color: #171620;">
 <head>
-<title>Sayfa Başlığı</title>
+<title>Enes Ahmet Gül'ün Profil Sayfası</title>
+<link rel="stylesheet" href="Stiller.css" />
+<style>                     /*bu styleyi nasıl sheet e atacağımı bulamadım hocam*/
+  .altbar {
+    position: fixed;
+    left: 160px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(13, 13, 14, 0.5);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    }
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(13, 13, 14, 0.5);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(225, 225, 225);
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #0ba2c0;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 30px; 
+  text-align: left;
+  padding: 0px 10px;
+  color: rgb(225, 225, 225);
+}
+
+
+</style>
 </head>
-<body>
+<body style="border: 20px; font-family: 'Times New Roman', Times, serif;" >
 
-<h1>Bu bir başlıktır.</h1>
-<p>Bu bir paragraftır.</p>
+<div class="sidenav">
+  <img src="Logom.png" width="150px" height="150px">
+  <a href="index.html">Anasayfa</a>
+  <a href="#">Hakkımda</a>
+  <a href="#">Becerilerim</a>
+  <a href="iletisim.html">İletişim</a>
+</div>
+<div class="altbar">
+  <div class="footericin">
+    <a>Tel:(90)0507 188 7997</a> <a>E-mail:enesahmet9_@hotmail.com</a> <a>GitHub:EnesAhmetGul</a>
+  </div>
+  <p></p>
+</div>
 
+<table style="width:100%">
+    <tr>
+        <th>
+            <div class="main" style="margin-bottom: 50px; margin-left: 200px;">
+                <h1 style="margin-top: 50px;">Merhaba,</h1>
+                <h2>Ben Enes Ahmet Gül</h2>
+                <p style="margin-top: 20px;">İnönü Ünüversitesi'nde Okuyan Bir 1. Sınıf Öğrencisiyim.</p>
+            </div>
+        </th>
+        <th>
+            <div class="main" style="margin-bottom: 50px;">
+                <img style="margin-left: 20px;" src="Adam.png">
+                <div class="links">
+                  <a href="#">Daha Fazlasını Öğren</a>
+                  <a href="iletisim.html">Benimle İletişime Geç</a>
+                </div>
+           </div>
+        </th>
+    </tr>
+</table>
+
+   
 </body>
-</html>   
+</html> 

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("ArkaPlanFoto.jpg");
+  background-size: cover;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  column-gap: 16px;
+}
+.links a {
+  background-color: rgb(74, 71, 84);
+  padding: 20px;
+  width: 280px;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 56px;
+  transition: all 0.25s ease-in;
+}
+.links a:hover {
+  background-color: #0ba2c0;
+  color: white;
+}
+.footericin a {
+  background-color: transparent;
+  padding:20px;
+  width: 280px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+/*              Önceki denemem
+.button3{
+  display:inline-block;
+  padding:20px;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color: rgb(255, 255, 255);
+  background-color: rgb(74, 71, 84);
+  text-align:center;
+  transition: all 0.2s;
+  }
+  .button3 a:hover{
+    background-color: #0ba2c0;
+    color: white;
+  }*/
+  .button3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    column-gap: 16px;
+  }
+  .button3 button {
+    background-color: rgb(74, 71, 84);
+    padding: 20px;
+    width: 280px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 56px;
+    transition: all 0.25s ease-in;
+  }
+  .button3 button:hover {
+    background-color: #0ba2c0;
+    color: white;
+  }
+  .cart {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 20px;
+    width: 280px;
+    background-color: rgb(74, 71, 84);
+    border-radius: 56px;
+    text-align: center;
+  }
+  
+  .cart:hover {
+    background-color: #0ba2c0;
+    color: white;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
